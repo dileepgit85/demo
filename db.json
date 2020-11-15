@@ -1,14 +1,124 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+"error":null,
+"status":null,
+"assessments":[
+0:{
+	"annualPayment":null,
+	"contract": 
+		{
+			"annualPayment":null,
+			"annualTotal":"496.68",
+			"autopay":"C",
+			"clubIndicator":null,
+			"contractbalance":null,
+			"contractName":"null,
+			"contractNumber":"000521000109",
+			"contractSite":null,
+			"contractType":"Undivided Interest - Odd Year (UDI)",
+			"description":"Wyndham Bali Hai Villas",                                             
+			"feeBreakDowns":[
+			0:{
+				"feeBreakdownAlgorithm":"(84,000 / 1000) * $2.73 = $229.32 ",
+				"feeBreakdownItem":"Maintenance Fees:  ",
+				"feeBreakdownItemCategory":"I",
+				"presidentialProgramFeeRate":"0.00",
+				"presidentialProgramPointLimit":"0",
+				"programFeeRate":"180.00",
+				"programFeeRateOrFlatFee":"F",
+				"rateUdi":"3.77"
+			}              
+			1:{
+				"feeBreakdownAlgorithm":"(84,000 / 1000) * $0.62 = $52.08             ",
+				"feeBreakdownItem":"Reserve Fund:                           ",
+				"feeBreakdownItemCategory":"I",
+				"presidentialProgramFeeRate":"0.00",
+				"presidentialProgramPointLimit":"0",
+				"programFeeRate":"180.00",
+				"programFeeRateOrFlatFee":"F",
+				"rateUdi":"3.77"
+			}              
+			2:{
+				"feeBreakdownAlgorithm":"(84,000 / 1000) * $0.25 = $21.00",
+				"feeBreakdownItem":"Property Tax:",
+				"feeBreakdownItemCategory":"I",
+				"presidentialProgramFeeRate":"0.00",
+				"presidentialProgramPointLimit":"0",
+				"programFeeRate":"180.00",
+				"programFeeRateOrFlatFee":"F",
+				"rateUdi":"3.77"
+			}
+			3:{
+				"feeBreakdownAlgorithm":"(84,000 / 1000) * $0.17 = $14.28",
+				"feeBreakdownItem":"Local Tax:",
+				"feeBreakdownItemCategory":"I",
+				"presidentialProgramFeeRate":"0.00",
+				"presidentialProgramPointLimit":"0",
+				"programFeeRate":"180.00",
+				"programFeeRateOrFlatFee":"F",
+				"rateUdi":"3.77"
+			}
+			4:{
+				"feeBreakdownAlgorithm":"(84,000 / 1000) * $3.77 = $316.68",
+				"feeBreakdownItem":"Total HOA Fee:",
+				"feeBreakdownItemCategory":"I",
+				"presidentialProgramFeeRate":"0.00",
+				"presidentialProgramPointLimit":"0",
+				"programFeeRate":"180.00",
+				"programFeeRateOrFlatFee":"F",
+				"rateUdi":"3.77"
+			}
+			5:{
+				"feeBreakdownAlgorithm":"$180.00",
+				"feeBreakdownItem":"Program Fee:",
+				"feeBreakdownItemCategory":" ",
+				"presidentialProgramFeeRate":"0.00",
+				"presidentialProgramPointLimit":"0",
+				"programFeeRate":"180.00",
+				"programFeeRateOrFlatFee":"F",
+				"rateUdi":"3.77"
+			}
+			6:{
+				"feeBreakdownAlgorithm":"$316.68 + $180.00 = $496.68",
+				"feeBreakdownItem":"Annual Fee:",
+				"feeBreakdownItemCategory":"T",
+				"presidentialProgramFeeRate":"0.00",
+				"presidentialProgramPointLimit":"0",
+				"programFeeRate":"180.00",
+				"programFeeRateOrFlatFee":"F",
+				"rateUdi":"3.77"
+			}
+			7:{
+				"feeBreakdownAlgorithm":"$496.68 / 12 = $41.39",
+				"feeBreakdownItem":"* Monthly Fee:",
+				"feeBreakdownItemCategory":"T",
+				"presidentialProgramFeeRate":"0.00",
+				"presidentialProgramPointLimit":"0",
+				"programFeeRate":"180.00",
+				"programFeeRateOrFlatFee":"F",
+				"rateUdi":"3.77"
+			}              
+			]
+			"monthlyPayment":"41.39",
+			"owner":null,
+			"paymentDueDate":null,
+			"paymentFrequency":"M",
+			"pKeySrc":null,
+			"pointsOwned":"168000",
+			"resort":null,
+			"useYearEndDate":null
+		}                                              
+	"contractType":null,
+	"creditExpires":null,
+	"lessAnnualFee":null,
+	"paymentFrequency":null,
+	"pointOwned":null,
+	"totals":null
+	}
+]
+"grandTotal":{
+	"totalHoa":"316.68",
+	"programFee":"180.00",
+	"annualTotal":"496.68",
+	"monthlyPayment":"41.39"
+}
 }
